@@ -1,13 +1,7 @@
 #!/usr/bin/perl
 
-#=====================================
-# SQL-Ledger
-# Script for automatic customer 
-# statement overview email forwarding
-#
-#=====================================
+package MailForwardService;
 
-use SL::MailForwardService;
 use Date::Calc qw(Today Week_Number);
 use Cwd;
 use MIME::Lite;

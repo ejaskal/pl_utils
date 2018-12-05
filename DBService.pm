@@ -1,17 +1,6 @@
-######################################################################
-# FMS 
-# Copyright (C) 2016
-#
-#  Author: Maurice Ward & Co.
-#     Web: http://www.mauriceward.com
-#
-#######################################################################
-#
-# FMS DB service routines
-#
-#######################################################################
+#!/usr/bin/perl
 
-package SL::DBService;
+package DBService;
 
 use warnings;
 use strict;
